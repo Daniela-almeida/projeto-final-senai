@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+body{
+    background-color: black;
+  
+}
+
+
+
+.subtitulo{
+    font-size: 40px;
+    text-align: center;
+    color: #FF239A;
+    font-family: sans-serif;
+    text-shadow: white 0px 1px 1px;
+}
+
+.dados{
+    font-size: 22px;
+    margin-left: 40px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #cc0479;
+
+    
+}
+
+.inicio{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    color: rgb(255, 250, 250);
+    font-weight: 600;
+}
+
+.inicio:hover{
+   color: #cc0479;
+   text-decoration: underline;
+   transition: 0.4s;
+}
+
+#nome_usuario{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 18px;
+    
+}
+
+#email_usuario{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 18px;
+    
+    
+}
+
+.link_contato{
+    font-size: 19px;
+    font-family: sans-serif;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.subtitulo{
+    font-size: 35px;
+    text-align: center;
+    color: #FF239A;
+    font-family: sans-serif;
+    text-shadow: white 0px 1px 1px;
+    
+}
+
+.dados{
+    font-size: 24px;
+    margin-left: 40px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.inicio_secao_trabalhos{
+    font-size: 42px;
+    text-align: center;
+    color: #FF239A;
+    font-family: sans-serif;
+    padding: 18px;
+    text-shadow: white 0px 1px 1px;
+    margin-top: 60px;
+}
+
+#inserir{
+    font-size: 16px;
+    width: 250px;
+    animation: digitando 3s steps(25) , blink .4s infinite alternate;
+    white-space: hidden;
+    overflow: visible;
+    border-radius: 2px solid;   
+}   
+
+@keyframes digitando {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    40%{
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+#email_dado{
+    font-size: 16px;
+    width: 250px;
+    animation: digitando 3s steps(25) , blink .4s infinite alternate;
+    white-space: hidden;
+    overflow: hidden;
+    border-radius: 2px solid;   
+}
+
+.email{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 18px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.endereco{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 18px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.telefone{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 18px;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+}
+
+
+.direitos{
+    font-family: sans-serif;
+    background-color: #BF2DB9;
+    text-align: center;
+    padding: 7px;
+}
+
+.inputs{
+    width: 20px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 17px;
+    border: #FF239A solid 4px;
+}
+
+button:hover{
+    background-image: linear-gradient(to right , purple , rgb(219, 16, 141) , rgb(209, 57, 163));
+    color: rgba(0, 0, 0, 0.863);
+    transition: all 0.5s;
+    opacity: 0.10;
+}
+
+button{
+    background-color: #BF2DB9;
+    padding: 17px;
+    margin: 14px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 800px;
+   
+
+}
+
+.formas_de_contato{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 18px;
+    text-align: center;
+}
+
+.direitos{
+    font-family: sans-serif;
+    background-color: #FF239A;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    background-color: #6d008f;
+    color: white;
+    
+}
+
+.mensagem{
+    font-size: 34px;
+    color: #FF239A;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 15px;
+    text-shadow: white 0px 1px 1px;
+
+}
+
+.trabalhos{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 30px;
+    margin: 12px;
+    
+}
+
+.servicos_prestados{
+    color: #FF239A;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.servicos_prestados:hover{
+    font-size: 30px;
+    transition: 0.9s;
+    overflow: hidden;
+}
+
+.textos{
+    margin-left: 10px;
+    font-size: 23px;
+    color: white;
+}
+
+
+.contato{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1508px) {
+    .textos{
+        font-size: 20px;
+
+    }
+
+    .mensagem{
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .inicio_secao_trabalhos{
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 383px) {
+    .inicio_secao_trabalhos{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .inicio_secao_trabalhos{
+        font-size: 27px;
+    }
+}
